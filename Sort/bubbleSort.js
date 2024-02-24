@@ -11,3 +11,7 @@ const bubbleSort=()=>{
     return score
 }
 console.log(bubbleSort(score));
+
+
+
+

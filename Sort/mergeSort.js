@@ -1,4 +1,4 @@
-let arr = [2, 4, 6, 5, 2, 1, 8, 6, 9]
+let arr = [2, 4, 6, 5, 2, 8, 6, 9,1]
 
 function mergeSort(arr) {
 
@@ -28,3 +28,5 @@ function merge(left, right){
 }
 
 console.log(mergeSort(arr))
+
+

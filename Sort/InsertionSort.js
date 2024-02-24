@@ -12,3 +12,7 @@ const insetionSort=()=>{
     return score
 }
  console.log(insetionSort(score))
+
+
+ 
+
