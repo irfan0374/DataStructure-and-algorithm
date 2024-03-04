@@ -1,16 +1,18 @@
-let score=[2,3,1,5,6,4]
+let arr = [4, 6, 3, 2, 5, 1, 7, 8]
 
-const bubbleSort=()=>{
-    for(let i=0;i<score.length;i++){
-        for(let j=0;j<score.length;j++){
-            if(score[j]>score[j+1]){
-                [score[j],score[j+1]]=[score[j+1],score[j]]
+function bubbleSort(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                [[arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]]
             }
         }
     }
-    return score
+    return arr
 }
-console.log(bubbleSort(score));
+console.log(bubbleSort(arr))
+
+
 
 
 

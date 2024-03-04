@@ -1,12 +1,11 @@
-
-    // HASH TABLE
-
+// HASH TABLE
     
 class hashTable{
     constructor(size){
         this.table=new Array(size)
         this.size=size
     }
+
     hash(key){
         let total=0;
         for(let i=0;i<key.length;i++){
@@ -69,4 +68,8 @@ hash.set("age",23)
 hash.set("emna","amaan")
 hash.print()
 console.log(hash.get("name"))
+
+
+
+
 
