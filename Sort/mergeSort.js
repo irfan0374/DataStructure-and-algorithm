@@ -29,6 +29,3 @@ function merge(left, right){
 
 console.log(mergeSort(arr))
 
-
-
-
