@@ -9,3 +9,7 @@ const palidrome=(str)=>{
 }
 let str="helo"
 console.log(palidrome(str))
+
+
+
+

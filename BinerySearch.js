@@ -18,6 +18,9 @@
 // }
 // console.log(binerySearch([3,5,7,8,9,10,11,14],10))   
 
+
+
+
 // // binerySearch Recrusivly/-----
 
 // function binerySearch(arr,target){

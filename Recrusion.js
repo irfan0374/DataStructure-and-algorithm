@@ -43,3 +43,4 @@ function sum(arr){
    return arr[arr.length-1]+sum(arr.slice(0,arr.length-1))
 }
 console.log(sum([1,2,3,4,4,10]))
+

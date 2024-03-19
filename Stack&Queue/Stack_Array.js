@@ -1,4 +1,4 @@
-// // stack in array
+// stack in array
 
 // class Stack {
 //     constructor() {

@@ -7,6 +7,13 @@
 // }
 // // console.log(fibnoci(6))
 
+function fib(n){
+    if(n<2){
+        return n
+    }
+    return fib(n-1)+fib(n-2)
+}
+
 
 
 // // recursive fibnocci
@@ -18,5 +25,3 @@
 //     return fibnocci(n - 1) + fibnocci(n - 2)
 // }
 // console.log(fibnocci(5))
-
-
